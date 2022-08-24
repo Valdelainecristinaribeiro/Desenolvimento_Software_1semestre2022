@@ -9,7 +9,7 @@ Trabalhos desenvolvidos durante o 1º Semestre do curso superior tecnológico de
 - Desenvolvimento Web - Sandro Valerius  <br/>
 - Design Digital - Daniel Robledo  <br/>
 - Engenharia de Software I - Orlando Saraiva <br/>
-- Modelagem de Banco de Dados - Angela - <br/>
+- Modelagem de Banco de Dados - Angela <br/>
 - Sistemas Operacionais e Redes - Rodrigo Brito Battilana <br/>
 <br>
 
