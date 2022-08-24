@@ -1,0 +1,25 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-indent: 1.0em;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+form{
+   background-color: #FF2F8B;
+   color: rgb(0, 0, 0); 
+   position: relative;
+   float: left;
+   border-radius: 5px;
+   width: 500px;
+   padding: 20px;
+   left: 50%;
+   margin-left: -250px;
+   line-height: 1.5em;
+}
