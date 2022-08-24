@@ -1,0 +1,101 @@
+:root {
+    --amarelo: #F9D423;
+    --vermelho: #ff0000; 
+    --azul: #0000ff;
+    --verde: #00ff00;
+}
+
+header, footer {
+    width: auto;
+    background-color: gold;
+    height: 50px;
+    line-height: 3em;
+    text-align: center;
+}
+header h1, footer h1{
+    text-align: center;
+    text-shadow: 1px 1px goldenrod;
+}
+header{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+footer{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 25px;
+}
+article{
+    margin-top: 10px;
+    width: 40%;
+    border: 1px dashed black;
+    height: 400px;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+}
+content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.bgBranco   {background-color: white;}
+.bgAmarelo  {background-color: var(--amarelo);}
+.bgAzul     {background-color: var(--azul)}
+.bgVermelho {background-color: var(--vermelho);}
+.bgVerde    {background-color: var(--verde)}
+.bgPreto    {background-color: black;}
+.bgfalha    {background-image: url(../objetos/_img/cao.jpg); background-repeat: no-repeat;}
+.bgfalha1   {background-image: url(../objetos/_img/cao_remedio.jpg); background-repeat: no-repeat;}
+.bgfalha2   {background-image: url(../objetos/_img/cao_banho.jpg); background-repeat: no-repeat;}
+.bgfalha3   {background-image: url(../objetos/_img/cao_tosa.jpg); background-repeat: no-repeat;}
+
+
+.txtBranco   {color: white;}
+.txtAmarelo  {color: var(--amarelo);}
+.txtAzul     {color: var(--azul)}
+.txtVermelho {color: var(--vermelho);}
+.txtVerde    {color: var(--verde)}
+.txtPreto    {color: black;}
+
+
+.borda-0   {border: none;}
+.borda-1   {border: solid 1px;}
+.borda-2   {border: solid 2px;}
+.borda-3   {border: solid 3px;}
+.borda-r0  {border-radius: 0px;}
+.borda-r5  {border-radius: 5px;}
+.borda-r10 {border-radius: 10px;}
+
+.bordaBranco   {border-color: white;}
+.bordaAmarelo  {border-color: var(--amarelo);}
+.bordaAzul     {border-color: var(--azul)}
+.bordaVermelho {border-color: var(--vermelho);}
+.bordaVerde    {border-color: var(--verde)}
+.bordaPreto    {border-color: black;}
+
+.imgcarinha {
+    background-image: url(../_imagens/carinha.png);
+}
+.imgpalitopoli {
+    background-image: url(../_imagens/palitopoli.png);
+}
+.imgcoracao {
+    background-image: url(../_imagens/coracao.png);
+}
+.imgRed {
+    background-image: url(../_imagens/Red.png);
+}
+
+.moveimg{
+    display: block;
+    width: 210px;
+    height: 157px;
+    text-indent: -9999px;
+    margin: 20px 30px;
+}
+.moveimg:hover {
+    background-position: -210px;
+}
